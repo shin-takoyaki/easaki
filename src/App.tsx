@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   Phone,
   Mail,
@@ -15,7 +15,7 @@ function App() {
   // ヘッダー部の画像を切り替えるための画像リスト
   const images = [
     "/images/headerImages/presonInstallingAirConditioner.png",
-    "/images/headerImages/family.png",
+    "/images/headerImages/family3.png",
     "/images/headerImages/sky.png",
   ];
 
@@ -284,6 +284,11 @@ function App() {
       {/* Services Section */}
       <section id="services" className="py-20 bg-gray-50" ref={servicesRef}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <img
+                  src="/images/mascot_character_removebg.png"
+                  alt="株式会社エアサキ"
+                  className="h-8 w-auto mr-2"
+                />
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             事業内容
           </h2>
@@ -320,7 +325,7 @@ function App() {
               <Users className="w-12 h-12 text-red-600 mb-4" />
               <h3 className="text-xl font-bold mb-4">人材派遣</h3>
               <p className="text-gray-600">
-                経験豊富な技術者を必要な期間派遣いたします。
+                貴社の業務に精通した、最適な人材をご紹介いたします。
               </p>
             </motion.div>
           </motion.div>
